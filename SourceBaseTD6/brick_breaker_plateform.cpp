@@ -33,7 +33,7 @@ PlateformeCasseBrique::initJoueurBalle(){
         b.vDirX = rand() % 10;
         b.vDirY = rand() % 10;
         //mettre couleur aléatoire
-        //b.c(10, 10, 10, 100);
+        b.c = {unsigned char(rand()%255), unsigned char(rand() % 255), unsigned char(rand() % 255), 255};
         monVectBalles.push_back(b);
     }
 }
