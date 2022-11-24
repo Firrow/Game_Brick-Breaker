@@ -1,5 +1,11 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: Le répertoire intermédiaire (x64\Debug\) contient des fichiers partagés provenant d'un autre projet (CasseBriqueTD6.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
   game.cpp
-C:\Users\manon\OneDrive\Documents\M1_COURS-TD-TP\C++\TP6\SourceBaseTD6\brick_breaker_plateform.h(39,30): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
-C:\Users\manon\OneDrive\Documents\M1_COURS-TD-TP\C++\TP6\SourceBaseTD6\brick_breaker_plateform.h(39,27): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
-  CasseBriqueTD6.vcxproj -> C:\Users\manon\OneDrive\Documents\M1_COURS-TD-TP\C++\TP6\BrickBreaker\x64\Debug\Brick-Breaker_project.exe
+C:\Users\manon\OneDrive\Documents\Programmation\JEU_Casse-Briques\Game_brick-breaker\SourceBaseTD6\brick_breaker_plateform.h(39,30): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+C:\Users\manon\OneDrive\Documents\Programmation\JEU_Casse-Briques\Game_brick-breaker\SourceBaseTD6\brick_breaker_plateform.h(39,27): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+  brick_breaker_plateform.cpp
+C:\Users\manon\OneDrive\Documents\Programmation\JEU_Casse-Briques\Game_brick-breaker\SourceBaseTD6\brick_breaker_plateform.h(39,30): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+C:\Users\manon\OneDrive\Documents\Programmation\JEU_Casse-Briques\Game_brick-breaker\SourceBaseTD6\brick_breaker_plateform.h(39,27): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+C:\Users\manon\OneDrive\Documents\Programmation\JEU_Casse-Briques\Game_brick-breaker\SourceBaseTD6\brick_breaker_plateform.cpp(20,47): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\manon\OneDrive\Documents\Programmation\JEU_Casse-Briques\Game_brick-breaker\SourceBaseTD6\brick_breaker_plateform.cpp(21,48): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+  Génération de code en cours...
+  CasseBriqueTD6.vcxproj -> C:\Users\manon\OneDrive\Documents\Programmation\JEU_Casse-Briques\Game_brick-breaker\BrickBreaker\x64\Debug\Brick-Breaker_project.exe
