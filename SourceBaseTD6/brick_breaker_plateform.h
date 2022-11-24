@@ -47,6 +47,7 @@ class PlateformeCasseBrique {
         int y;
         int largeur = ReglageJeu::LARGEUR_PLATEAU;
         int epaisseur = ReglageJeu::EPAISSEUR_PLATEAU;
+        double vitesse = 7.0;
         
         void render(SDL_Renderer *r){
             SDL_SetRenderDrawColor(r, 240, 100, 80, 255);
@@ -88,7 +89,7 @@ class PlateformeCasseBrique {
 public:
     PlateformeCasseBrique(SDL_Renderer *renderer);
     bool tick();
-    void miseAjourPosPlateau();
+    void miseAjourPosPlateau(int direction);
     void initJoueurBalle();
     void miseAjourVectVitesse(Balle &uneBalle);
     

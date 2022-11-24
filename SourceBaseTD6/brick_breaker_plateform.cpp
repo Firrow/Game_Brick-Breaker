@@ -40,8 +40,11 @@ PlateformeCasseBrique::initJoueurBalle(){
 
 
 
-void PlateformeCasseBrique::miseAjourPosPlateau(){
-    
+void PlateformeCasseBrique::miseAjourPosPlateau(int direction){
+    if (direction == 0)
+        monPlateau.x -= monPlateau.vitesse;
+    else if(direction == 1)
+        monPlateau.x += monPlateau.vitesse;
 }
 
 
@@ -72,29 +75,37 @@ PlateformeCasseBrique::tick(){
             // Réponse à la question 1.3 ici:
             SDL_Quit();
         }
-        if( event.type == SDL_KEYDOWN && event.key.repeat == 0 )
+        if( event.type == SDL_KEYDOWN /* && event.key.repeat == 0*/)
         {
             switch( event.key.keysym.sym )
             {
                 case SDLK_LEFT:
+                    //monPlateau.x -= 10;
+                    miseAjourPosPlateau(0);
                     break;
                 case SDLK_RIGHT:
+                    //monPlateau.x += 10;
+                    miseAjourPosPlateau(1);
                     break;
             }
         }
         //If a key was released
-        else if( event.type == SDL_KEYUP && event.key.repeat == 0 )
+        /*else if (event.type == SDL_KEYUP && event.key.repeat == 0)
         {
             //Adjust the velocity
             switch( event.key.keysym.sym )
             {
                 case SDLK_LEFT:
+                    monPlateau.x -= 10;
                     break;
                 case SDLK_RIGHT:
+                    monPlateau.x += 10;
                     break;
             }
-        }
+        }*/
     }
+
+    //TODO : question 3.4
     
     // Mise à jour balle:
     // Suppression des doublons
