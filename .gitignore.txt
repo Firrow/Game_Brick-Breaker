@@ -1,1 +1,1 @@
-BrickBreaker/.vs
+.vs/
