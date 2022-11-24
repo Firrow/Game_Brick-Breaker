@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: Le répertoire intermédiaire (x64\Debug\) contient des fichiers partagés provenant d'un autre projet (CasseBriqueTD6.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  game.cpp
+C:\Users\manon\OneDrive\Documents\M1_COURS-TD-TP\C++\TP6\SourceBaseTD6\brick_breaker_plateform.h(39,30): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+C:\Users\manon\OneDrive\Documents\M1_COURS-TD-TP\C++\TP6\SourceBaseTD6\brick_breaker_plateform.h(39,27): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+  CasseBriqueTD6.vcxproj -> C:\Users\manon\OneDrive\Documents\M1_COURS-TD-TP\C++\TP6\BrickBreaker\x64\Debug\Brick-Breaker_project.exe
