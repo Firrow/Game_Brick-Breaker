@@ -19,14 +19,14 @@ void
 PlateformeCasseBrique::initJoueurBalle(){
     monPlateau.x = ReglageJeu::LARGEUR_FENETRE/2.0;
     monPlateau.y = ReglageJeu::HAUTEUR_FENETRE - ReglageJeu::HAUTEUR_FENETRE/8.0 ;
-    /*Balle b;
+    Balle b;
     b.x = ReglageJeu::LARGEUR_FENETRE/2.0;
     b.y = ReglageJeu::HAUTEUR_FENETRE/2.0;
     b.vDirX = 5.0;
     b.vDirY = -5.0;
-    monVectBalles.push_back(b);*/
+    monVectBalles.push_back(b);
 
-    for (int i = 0; i < 10; i++) {
+    /*for (int i = 0; i < 10; i++) {
         Balle b;
         b.x = rand() % ReglageJeu::LARGEUR_FENETRE / 2.0;
         b.y = rand() % ReglageJeu::HAUTEUR_FENETRE / 2.0;
@@ -35,7 +35,7 @@ PlateformeCasseBrique::initJoueurBalle(){
         //mettre couleur aléatoire
         b.c = {unsigned char(rand()%255), unsigned char(rand() % 255), unsigned char(rand() % 255), 255};
         monVectBalles.push_back(b);
-    }
+    }*/
 }
 
 
@@ -106,7 +106,7 @@ PlateformeCasseBrique::tick(){
         miseAjourVectVitesse(b);
     }
     // Affichage Joueur
-    
+    monPlateau.render(monRenderer);
     
     if (monVectBalles.size()==0){
         initJoueurBalle();
